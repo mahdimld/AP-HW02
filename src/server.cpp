@@ -128,6 +128,7 @@ clients[receiverClient] += value;
 
 }
 
+pending_trxs.clear();
 return nonce;
 
 }
